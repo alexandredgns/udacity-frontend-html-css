@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.block__title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.block__description {
+    font-size: 1em;
+    color: #666;
+}
+
+.block--modified {
+    background-color: #e0f7fa; /* Different background color for the modifier */
+    border-color: #0097a7; /* Different border color for the modifier */
+}

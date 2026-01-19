@@ -1,0 +1,28 @@
+.header {
+    background-color: rgb(173, 230, 202); 
+    padding: 20px; 
+    text-align: center;
+}
+
+.title {
+    font-size: 28px; 
+    color: navy;
+}
+
+nav {
+    background-color: rgb(211, 200, 115); 
+    padding: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none; 
+    display: flex; 
+    gap: 10px;
+    
+}
+
+li {
+    padding: 5px; 
+    border: 1px solid black;
+}

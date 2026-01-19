@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>
+                Name
+                <input type="text" required minlength="3" maxlength="17">
+            </label>
+        </div>
+        <div>
+            <label>
+                Password
+                <input type="password" name="pass" placeholder="senha">
+            </label>
+        </div>
+        <br>
+        <fieldset>
+            <legend> Checkbox Area</legend>
+            <label>
+                <input type="checkbox" name="check" value="1">
+                Checkbox 1
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="check" value="2">
+                Checkbox 2
+            </label>
+        </fieldset>
+        <br>
+        <label> 
+            Range
+            <input type="range" min="18" max="65">
+        </label>
+        <br><br>
+        <label>Text
+            <br>
+            <textarea cols="40" rows="15" name="textarea"></textarea>
+        </label>
+        <br><br>    
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+        <br><br>
+
+        <input type="file" name="upload">
+
+        <br><br>
+        <button type="submit">Submit</button>
+        <input type="submit">
+        <input type="reset">
+
+        
+
+    </form>
+    
+</body>
+</html>
